@@ -41,8 +41,8 @@ custom_stopwords = ["the", "a", "an", "and", "or", "of", "to",
                     "aux", "du", "des", "l","1","2","3","4","5","6","7","8","9","0"]
 
 
+nlp = spacy.load('fr_core_news_sm')
 def return_NER(sentence):
-    nlp = spacy.load('fr_core_news_sm')
     doc = nlp(sentence)
     return [(X.text, X.label_) for X in doc.ents]
 
