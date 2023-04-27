@@ -1,0 +1,7 @@
+https://github.com/Wonuabimbola/movie-genre-prediction/blob/main/predict_movie_genre_from_plot.ipynb
+
+https://maelfabien.github.io/machinelearning/NLPfr/#9-transformers-
+
+
+
+Sophie est une jeune femme ambitieuse qui travaille dans une grande entreprise. Elle est passionnée par son travail et sa vie sentimentale est au second plan. Un jour, elle rencontre Jake, un artiste bohème et charismatique. Malgré leurs différences, ils sont attirés l'un par l'autre et commencent une relation. Leur amour est intense et passionné, mais leur relation est mise à rude épreuve par les différences de leurs vies. Sophie doit naviguer dans le monde des arts de Jake, qui est très différent de son monde d'affaires. Et Jake doit faire face aux attentes de Sophie en matière de stabilité et de sécurité financière. Alors que leur relation devient de plus en plus sérieuse, ils doivent faire face à des défis imprévus qui mettent leur amour à l'épreuve. Ils doivent trouver un équilibre entre leurs vies et leurs rêves, tout en restant fidèles l'un à l'autre. Le film montre comment l'amour peut être imprévisible et inattendu, et comment il peut nous amener à repenser nos priorités et nos choix de vie. Les personnages principaux sont confrontés à des choix difficiles, mais ils sont prêts à tout pour leur amour. Le film est rempli de scènes romantiques, de moments d'humour et d'émotion, et offre une belle réflexion sur la vie et l'amour.
