@@ -21,7 +21,7 @@
 
 [![Author](https://img.shields.io/badge/author-@AymaneElmahi-blue)](https://github.com/AymaneElmahi)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![Project Subject](https://img.shields.io/badge/the-project-subjectt-here-svg)](<https://github.com/AymaneElmahi/whats-the-genre/blob/main/Projet-TAL-RI-2023.pdf>)
+[![Project Subject](https://img.shields.io/badge/subject-here-svg)](<https://github.com/AymaneElmahi/whats-the-genre/blob/main/Projet-TAL-RI-2023.pdf>)
 
 
 <!-- PROJECT LOGO -->
@@ -138,9 +138,7 @@ git clone https://github.com/AymaneElmahi/whats-the-genre.git
 
 ## Usage
 
-This project may be useful for anyone looking to implement the whats-the-genre algorithm for occupancy estimation in their own applications. The algorithm's non-intrusive approach makes it suitable for various applications in facilities management and smart building systems.
-
-_For more details about the algorithm in itself, please refer to the [paper](https://github.com/cruiseresearchgroup/whats-the-genre-Seasonal-Decomposition-Algorithm-for-Mining-Lagged-Time-Series/blob/master/paper/AusDM2017_IrvanAriefAng_(CCIS).pdf)\_
+This project may be used as a starting point for other classification projects. I's also a good example of how to use different classification algorithms and how to evaluate their performance using different performance measures.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
