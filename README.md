@@ -1,199 +1,240 @@
-# Rapport Projet TAL
+<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 
-#### Aymane EL MAHI
+<a name="readme-top"></a>
 
-## SOMMAIRE:
+<!--
+*** Thanks for checking out the Best-README-Template. If you have a suggestion
+*** that would make this better, please fork the repo and create a pull request
+*** or simply open an issue with the tag "enhancement".
+*** Don't forget to give the project a star!
+*** Thanks again! Now go create something AMAZING! :D
+-->
 
-### 1-Introduction
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
 
-#### ● Compréhension du problème
+[![Author](https://img.shields.io/badge/author-@AymaneElmahi-blue)](https://github.com/AymaneElmahi)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![Project Subject](https://img.shields.io/badge/the-project-subjectt-here-svg)](<https://github.com/AymaneElmahi/whats-the-genre/blob/main/Projet-TAL-RI-2023.pdf>)
 
-### 2-Prétraitement
 
-#### ● Data Understanding
+<!-- PROJECT LOGO -->
+<!-- <br />
+<div align="center">
+  <a href="https://github.com/AymaneElmahi/whats-the-genre">
+    <img src="images/logo_written.png" alt="Logo" width="80" height="80">
+  </a> -->
 
-#### ● Prétraitement de la colonne Titre
+<h3 align="center">What's The Genre  </h3>
 
-### ● Prétraitement de la colonne Synopsis
+  <p align="center">
+    The aim of this project is to develop a system for retrieving information
+    from a collection of film descriptions published on Allociné. The main challenge
+    is to automate the classification of films by genre, based on the text of their synopsis
+    synopsis and title. This can be a particularly complex task, as film
+    film genres can be subtle, and their classification can vary according to
+    criteria and contexts.
+    To achieve our goal, we will explore several approaches to automatic
+    classification approaches and evaluate their suitability using standard
+    performance measures. We will also study the text analysis techniques
+    best suited to the nature of the data and the needs of the project.
+    <br />
+    <a href="https://github.com/AymaneElmahi/whats-the-genre"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <!-- <a href="https://github.com/AymaneElmahi/whats-the-genre">View Demo</a> -->
+    <a href="https://github.com/AymaneElmahi/whats-the-genre/issues">Report Bug</a>
+    <!-- ·
+    <a href="https://github.com/AymaneElmahi/whats-the-genre/issues">Request Feature</a> -->
+  </p>
+</div>
 
-### 3-Différentesapproches
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <!-- <li><a href="#roadmap">Roadmap</a></li> -->
+    <!-- <li><a href="#contributing">Contributing</a></li> -->
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <!-- <li><a href="#acknowledgments">Acknowledgments</a></li> -->
+  </ol>
+</details>
 
-#### ● B-o-W et TF-IDF
+<!-- ABOUT THE PROJECT -->
 
-#### ● Camembert-base
+## About The Project
 
-### 4-Conclusion
+The project involves developing a system for retrieving information from a collection
+collection of film descriptions from Allociné. It will be divided into two distinct
+stages. The first stage will involve the creation of a tool for the automatic classification
+based on the text of synopses and titles. To do this, we'll
+two CSV files containing descriptions of French-language films provided on Moodle.
+provided on Moodle. Different classification algorithms and text
+text features will be compared and evaluated according to best practices
+such as cross-validation.
+The second step will be to apply the selected model to a new dataset
+and produce data labeled with the predicted genres. We will
+analyze the model's performance in terms of precision, recall and
+F1-score. We will also evaluate the model's ability to generalize to new
+new datasets, and we'll suggest ways of improving the model's
+optimal performance.
 
-### 1-Introduction
 
-Ce projet a pour objectif de développer un système de récupération d'informations
-dans une collection de descriptions de films publiées sur Allociné. L'enjeu principal
-est d'automatiser la classification des films par genre en nous basant sur le texte de
-leur synopsis et leur titre. Cette tâche peut être particulièrement complexe, car les
-genres de films peuvent être subtils et leur classification peut varier en fonction des
-critères et des contextes.
-Pour atteindre notre objectif, nous allons explorer plusieurs approches de
-classification automatique et évaluer leur pertinence en utilisant des mesures de
-performance standard. Nous allons également étudier les techniques d'analyse de texte
-les plus adaptées à la nature des données et aux besoins du projet
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-#### ● Problem Understanding
+### Built With
 
-Le projet consiste à développer un système de récupération d'informations dans une
-collection de descriptions de films provenant d'Allociné. Il sera divisé en deux étapes
-distinctes. La première étape portera sur la création d'un outil de classification
-automatique des genres de films basé sur le texte des synopsis et des titres. Pour ce
-faire, nous utiliserons deux fichiers CSV contenant des descriptions de films en
-français fournis sur Moodle. Différents algorithmes de classification et
-caractéristiques de texte seront comparés et évalués selon les meilleures pratiques
-telles que la validation croisée.
-La deuxième étape consistera à appliquer le modèle sélectionné à un nouvel ensemble
-de données et à produire des données étiquetées avec les genres prédits. Nous
-analyserons les performances du modèle en termes de précision, de rappel et de
-F1-score. Nous évaluerons également la capacité du modèle à généraliser à de
-nouveaux ensembles de données et nous proposerons des pistes d'amélioration pour
-des performances optimales.
+<!-- python, jupyter, tensorflow, pandas -->
 
-### 2-Preprocessing
+[![Python](https://img.shields.io/badge/python-3.9.0-blue)](https://www.python.org/downloads/release/python-390/)  
+[![Jupyter](https://img.shields.io/badge/jupyter-6.1.4-orange)](https://jupyter.org/)  
+[![Tensorflow](https://img.shields.io/badge/tensorflow-2.4.0-red)](https://www.tensorflow.org/)  
+[![Pandas](https://img.shields.io/badge/pandas-1.2.0-yellow)](https://pandas.pydata.org/)
 
-#### ● Data Understanding
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Les données sont fournies dans deux fichiers CSV, l'un pour l'entraînement et l'autre
-pour les tests. Les données d'entraînement contiennent 2875 films avec les 22 champs
-suivants :
+<!-- GETTING STARTED -->
 
-```
-● acteur_
-● acteur_
-● acteur_
-● allocine_id
-● annee_prod
-● annee_sortie
-● box_office_fr
-● couleur
-● duree
-● langues
-● nationalite
-● nb_critiques_presse
-● nb_critique_spectateurs
-● nb_notes_spectateurs
-● note_presse
-● note_spectateurs
-● realisateurs
-● synopsis
-● type_film
-● genre
-```
+## Getting Started
 
-Ces champs contiennent des informations telles que les acteurs, les réalisateurs, les
-années de production et de sortie, les langues, les nationalités, les notes des critiques
-et des spectateurs, les résumés de films et les genres. Le champ "genre" sera utilisé
-comme variable cible pour la classification des films.
-Les données de test contiendront des films similaires, mais sans l'étiquette de genre, et
-seront utilisées pour évaluer la performance du modèle de classification. Nous
-utiliserons également ces données pour évaluer la capacité du modèle à généraliser à
-de nouveaux ensembles de données.
+### Prerequisites
 
-#### ● Prétraitement de la colonne Titre:
+To install all the required libraries for this project, run the following command:
 
-La fonction "process_title" est une fonction de prétraitement des données pour la
-colonne "titre" d'un dataset.Elle effectue plusieurs étapes pour nettoyer et normaliser
-les données.
-Tout d'abord, elle convertit tous les titres en minuscules pour éviter les erreurs de
-casse et faciliter la manipulation des données. Ensuite, elle utilise la méthode
-"normalize" pour supprimer les accents et convertir les caractères spéciaux en
-caractères ASCII. Elle supprime également la ponctuation en utilisant la méthode
-"translate" avec une table de correspondance vide.
-Ensuite, la fonction applique un filtre "stopwords" pour enlever les mots courants qui
-n'ont pas beaucoup de signification pour l'analyse de texte. La fonction de
-lemmatisation "lemmatize_text" est ensuite appliquée pour normaliser les mots en les
-ramenant à leur forme de base.
-Finalement, la fonction renvoie le dataframe avec une colonne supplémentaire
-"titre_use" contenant les titres prétraités. Cette fonction est utile pour améliorer la
-qualité des données et faciliter l'analyse ultérieure du dataset.
-
-#### ● Prétraitement de la colonne Synopsis:
-
-La fonction "process_synopsis" est une autre fonction de prétraitement de données
-pour la colonne "synopsis" d'un dataset. Cette fonction effectue les mêmes étapes de
-nettoyage et de normalisation que la fonction "process_title".
-Cependant, cette fonction comporte une étape supplémentaire qui consiste à supprimer
-les "named entities" (NER) du synopsis en utilisant la fonction "remove_NER". Les
-named entities sont des entités nommées comme les noms de personnes, de lieux ou
-d'organisations, qui peuvent perturber l'analyse de texte si elles sont incluses dans le
-corpus. En supprimant les NER, la fonction permet de mieux se concentrer sur les
-mots clés pertinents pour la classification des genres de films.
-Comme pour la fonction "process_title", la fonction renvoie le dataframe avec une
-colonne supplémentaire "synopsis_use" contenant les synopses prétraités. Ces deux
-fonctions de prétraitement sont essentielles pour améliorer la qualité des données
-avant l'analyse et la classification des genres de films.
-
-### 3-Différentes approches:
-
-#### ● B-o-W et TF-IDF:
-
-Dans le cadre de ce projet, j'ai utilisé différentes techniques pour prétraiter les données
-textuelles avant de les utiliser pour entraîner un modèle de classification de genre de
-films. Après avoir nettoyé les données et supprimé les stopwords et la ponctuation, j'ai
-d'abord utilisé une approche de bag-of-words pour représenter les textes sous forme de
-vecteurs numériques. Cette approche consiste à considérer chaque document comme
-un sac de mots et à créer un vocabulaire unique pour l'ensemble des documents. Les
-vecteurs de chaque document sont ensuite construits en comptant le nombre
-d'occurrences de chaque mot du vocabulaire dans le document
-
-Ensuite, j'ai utilisé une approche plus avancée de la représentation de texte, appelée
-TF-IDF (term frequency-inverse document frequency). Cette approche prend en
-compte la fréquence de chaque mot dans le document, ainsi que sa fréquence inverse
-dans l'ensemble des documents. Cette approche permet de mieux représenter la
-pertinence d'un mot pour un document donné en considérant également sa fréquence
-dans l'ensemble des documents.
-En testant plusieurs algorithmes tels que LogisticRegression, DecisionTreeClassifier,
-MultinomialNB, RandomForestClassifier, AdaBoostClassifier,
-GradientBoostingClassifier ...,
-j’ai eu une précision de 50%, et je ne pense pas qu’il est possible de faire mieux avec
-de tels modèles.
-
-#### ● Camembert-base:
-
-Enfin, j'ai utilisé une approche plus récente et plus avancée de représentation de texte,
-en utilisant les modèles de langage pré-entraînés tels que les Transformers. Les
-modèles de langage basés sur les Transformers sont capables de prendre en compte le
-contexte et la sémantique des mots pour produire des représentations de texte plus
-riches et plus précises. J'ai utilisé un modèle pré-entraîné “camembert-base” pour
-encoder les descriptions de films en vecteurs numériques, qui ont ensuite été utilisés
-pour entraîner un modèle de classification de genre de film. Cette approche a permis
-d'obtenir des résultats un peu meilleurs que les approches précédentes, ceci est
-principalement dû à la lemmatisation, sans celle-là, les transformers ont pû monter
-jusqu'à 60% de précision, tandis qu’avec la lemmatisation, ça ne dépasse pas les 50% .
-J’ai aussi laissé les NER car je me suis dit qu’ils peuvent aider à classer certain films
-contenant des personnages ou des lieux pertinents (Sherlock Holmes, Hercule
-Poirot...). Il faut dire que je me suis beaucoup plus concentré sur le fait d’améliorer
-les modèles vus dans la première approche.
-J’ai voulu tenter d’utiliser le modèle “cmarkea/distilcamembert-base”, mais j’ai eu des
-problèmes de mémoire GPU sur mon pc personnel mais aussi sur Google Collab,
-cependant le code est dans la fin du model.ipynb pour ce modèle ci.
-
-### 4-Conclusion:
-
-En arrivant à la fin de ce projet, j’ai réalisé que différentes approches nécessitent
-différents prétraitements, et ce qui est optimal pour une approche peut être très néfaste
-pour une autre, c’est le cas de la lemmatisation ici.
-
-### Bibliographie:
-
-```
-● https://huggingface.co/cmarkea/distilcamembert-base
+```sh
+pip install -r requirements.txt
 ```
 
-```
-● https://github.com/Wonuabimbola/movie-genre-prediction/blob/main/predict_
-movie_genre_from_plot.ipynb
+### Installation
+
+```sh
+git clone https://github.com/AymaneElmahi/whats-the-genre.git
 ```
 
-```
-● https://maelfabien.github.io/machinelearning/NLPfr/#9-transformers-
-```
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-```
-● ChatGPT
-```
+<!-- USAGE EXAMPLES -->
+
+## Usage
+
+This project may be useful for anyone looking to implement the whats-the-genre algorithm for occupancy estimation in their own applications. The algorithm's non-intrusive approach makes it suitable for various applications in facilities management and smart building systems.
+
+_For more details about the algorithm in itself, please refer to the [paper](https://github.com/cruiseresearchgroup/whats-the-genre-Seasonal-Decomposition-Algorithm-for-Mining-Lagged-Time-Series/blob/master/paper/AusDM2017_IrvanAriefAng_(CCIS).pdf)\_
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ROADMAP -->
+
+## The code is divided into 2 main parts:
+
+### 1. Data preprocessing
+
+- **Data cleaning**: removing duplicates, removing rows with missing values
+- **Data exploration**: exploring the data to get a better understanding of the data
+- **Data visualization**: visualizing the data to get a better understanding of the data
+- **Data preprocessing**: removing stopwords, removing punctuation, tokenization, stemming, lemmatization, vectorization
+
+### 2. Classification
+
+- **Classification**: using different classification algorithms to predict the genre of a movie based on its title and synopsis
+- **Evaluation**: evaluating the performance of the different classification algorithms using different performance measures
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## Contributing
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTACT -->
+
+## Contact
+
+Aymane EL MAHI : [Message me on LinkedIn](https://www.linkedin.com/in/aymane-elmahi)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGMENTS -->
+
+<!-- ## Acknowledgments
+
+- []()
+- []()
+- []() -->
+<!--
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
+[contributors-shield]: https://img.shields.io/github/contributors/AymaneElmahi/whats-the-genre.svg?style=for-the-badge
+[contributors-url]: https://github.com/AymaneElmahi/whats-the-genre/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/AymaneElmahi/whats-the-genre.svg?style=for-the-badge
+[forks-url]: https://github.com/AymaneElmahi/whats-the-genre/network/members
+[stars-shield]: https://img.shields.io/github/stars/AymaneElmahi/whats-the-genre.svg?style=for-the-badge
+[stars-url]: https://github.com/AymaneElmahi/whats-the-genre/stargazers
+[issues-shield]: https://img.shields.io/github/issues/AymaneElmahi/whats-the-genre.svg?style=for-the-badge
+[issues-url]: https://github.com/AymaneElmahi/whats-the-genre/issues
+[license-shield]: https://img.shields.io/github/license/AymaneElmahi/whats-the-genre.svg?style=for-the-badge
+[license-url]: https://github.com/AymaneElmahi/whats-the-genre/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/aymane-elmahi
+[product-screenshot]: images/about_the_project_screenshot.png
+[Flowchart]: images/flowchart.png
+[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+[Next-url]: https://nextjs.org/
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
+[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
+[Vue-url]: https://vuejs.org/
+[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
+[Angular-url]: https://angular.io/
+[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
+[Svelte-url]: https://svelte.dev/
+[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
+[Laravel-url]: https://laravel.com
+[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
+[Bootstrap-url]: https://getbootstrap.com
+[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
+[JQuery-url]: https://jquery.com
